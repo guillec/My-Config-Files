@@ -3,4 +3,6 @@ set background=dark
 colorscheme solarized
 au BufEnter *.rb syn match error contained "\<binding.pry\>"
 au BufEnter *.rb syn match error contained "\<debugger\>"
+
+#This should be for the silver search but doesnt seem to be working
 let g:ackprg = 'ag --nogroup --nocolor --column'
